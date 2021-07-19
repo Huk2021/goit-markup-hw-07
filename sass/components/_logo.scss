@@ -1,0 +1,29 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  .navigation & {
+    margin-right: 93px;
+  }
+
+  &--span {
+    color: var(--accent-color);
+  }
+}
+
+.logo-futer {
+  display: block;
+  font-family: var(--secondary-font);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
