@@ -507,13 +507,13 @@ section {
   margin-top: -30px;
 }
 
-.feature-list-item {
+.feature-list__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.feature-title {
+.feature-list__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -523,17 +523,19 @@ section {
   margin-bottom: 10px;
 }
 
-.feature-description {
+.feature-list__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.advantages {
-  padding-bottom: 0px;
+.feature-list__svg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.feature {
+.feature-list__feature {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -544,10 +546,8 @@ section {
   margin-bottom: 30px;
 }
 
-.feature-svg {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.advantages {
+  padding-bottom: 0px;
 }
 
 .promo-title {
