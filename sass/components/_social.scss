@@ -5,6 +5,7 @@
   fill: currentColor;
   margin-left: 32px;
   margin-right: 32px;
+
   &-link {
     display: flex;
     width: 44px;
@@ -33,6 +34,9 @@
 
 .last {
   margin-right: 0px;
+}
+.network {
+  margin-left: 0;
 }
 
 // .social-network {
